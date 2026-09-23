@@ -1,0 +1,16 @@
+# Header links (order = display order)
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Honors"
+    url: /honors/
+
+  - title: "Memorable Moments"
+    url: /memorable-moments/

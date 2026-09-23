@@ -1,0 +1,102 @@
+% !TEX program = xelatex
+% Ming-Zhi (Evan) Jiang - Resume (Chinese), layout follows Lucas Hsu's resume
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[left=0.6in,right=0.6in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage{fontspec}
+\usepackage[AutoFakeBold=2.5,AutoFakeSlant=0.18]{xeCJK}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Fonts ----------
+\setmainfont{TeX Gyre Termes}            % Times (body)
+\newfontfamily\headfont{TeX Gyre Pagella} % Palatino (headings / entry titles)
+\setmonofont{TeX Gyre Cursor}[Scale=0.95] % Courier (email / homepage)
+\setCJKmainfont{DFKai-SB}                  % 標楷體
+\setCJKmonofont{DFKai-SB}
+\xeCJKsetup{CJKecglue={\hskip 0.15em plus 0.05em}}
+
+% ---------- Colors & links ----------
+\definecolor{linkblue}{RGB}{0,0,238}
+\newcommand{\bluelink}[2]{\href{#1}{\textcolor{linkblue}{\texttt{#2}}}}
+
+% ---------- Section style ----------
+\titleformat{\section}{\headfont\Large\scshape\raggedright}{}{0em}{}[\vspace{-0.75em}\rule{\linewidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{0.35em}{0.05em}
+
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.5em,label={-},itemsep=0.05em,topsep=0.1em,parsep=0pt}
+
+% ---------- Entry macros ----------
+% \entry{Title}{Date}{Subtitle}{Location}
+\newcommand{\entry}[4]{%
+  \hspace*{0.8em}{\headfont\bfseries #1}\hfill{\itshape #2}\\
+  \hspace*{0.8em}{\itshape #3}\hfill{\itshape #4}\vspace{-0.1em}}
+\newcommand{\entryline}[2]{%
+  \hspace*{0.8em}{\headfont\bfseries #1}\hfill{\itshape #2}}
+\newcommand{\award}[2]{\hspace*{0.8em}{\bfseries #1}\hfill{\itshape #2}\par\vspace{0.15em}}
+\newenvironment{bullets}{\begin{itemize}[leftmargin=2.3em]}{\end{itemize}}
+
+\begin{document}
+
+% ---------- Header (no photo) ----------
+\begin{center}
+  {\headfont\bfseries\fontsize{22}{26}\selectfont 姜明志\ \ Ming-Zhi Jiang}\\[0.35em]
+  Email:\ \bluelink{mailto:s112701018.mg12@nycu.edu.tw}{s112701018.mg12@nycu.edu.tw}\quad
+  Homepage:\ \bluelink{https://evan-jiamg.github.io}{evan-jiamg.github.io}
+\end{center}
+\vspace{-0.6em}
+
+% ================= EDUCATION =================
+\section{Education}
+\entryline{國立陽明交通大學}{預計 2027 年 6 月畢業}\\
+\hspace*{0.8em}{\itshape 資訊管理與財務金融學系（資訊管理組），學士}
+\begin{bullets}
+  \item 累計 GPA 4.21 / 4.30\ \ •\ \ 累計系排 5 / 53（前 9.43\%）
+  \item 研究所：人工智慧理論與實作 (A+)\ ．\ 最佳化方法與應用（修課中）
+  \item 大學部：資料結構 (A+)\ ．\ 演算法 (A+)\ ．\ 線性代數 (A+)\ ．\ 資料庫管理 (A+)\ ．\ 機器學習概論（修課中）
+\end{bullets}
+
+% ================= UNDERGRADUATE RESEARCH =================
+\section{Undergraduate Research Project}
+\hspace*{0.8em}\parbox[t]{0.8\linewidth}{\raggedright\headfont\bfseries Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games\ \ \href{https://github.com/Evan-Jiamg/Echo-Chamber-Simulation}{\textcolor{linkblue}{\faGithub\ Code \& Data}}}\hfill{\itshape 2026 年 2 月至今}\\[0.2em]
+\hspace*{0.8em}$\rightarrow$ {\bfseries First author}\ ·\ {\bfseries Accepted}\ ·\ International Conference on Computational Science and Network Intelligence\hfill{\itshape 2026 年 9 月}\\
+\hspace*{0.8em}$\rightarrow$ {\bfseries Co-author}\ ·\ {\bfseries Accepted}\ ·\ Taiwan Summer Workshop on Information Management\hfill{\itshape 2026 年 7 月}\\
+\hspace*{0.8em}$\rightarrow$ {\bfseries 第一名}\ ·\ 台灣作業研究學會\ ·\ 大專校院專題競賽\ ·\ 人工智慧與大數據分析組\hfill{\itshape 2026 年 6 月}\\
+\hspace*{0.8em}{\itshape Economics and Computing Lab，指導教授：陳柏安教授}
+\begin{bullets}
+  \item 本研究以第一作者身分錄取 CSoNet 2026（Springer LNCS），該會議是聚焦於結合網路分析、圖神經網路與人工智慧，來解決真實世界問題的國際會議
+  \item 針對既有 Opinion Game 模型（Bhawalkar et al., STOC 2013）缺乏語言推理，以及 LLM Simulation（Wang et al., COLING 2025）未衡量 Social Efficiency 的缺口，提出 Hybrid Coevolutionary Opinion Game（H-COG），將 Friedkin-Johnsen Model 的 Cost-minimization Agent 與 LLM Agent 併入同一個動態重連的社群網路
+  \item 以 Reddit 真實討論資料作為 Agent 初始立場，完成 540 次 Simulations，發現 $\alpha = 0.125$ 混合 Agents 網路的 Social Cost 為 $\alpha = 1$ 純數值 Agents 網路的 5 倍，成因主要來自同溫層內的從眾壓力，使 Agents 外在表達立場逐漸背離內心初始立場
+  \item CSoNet 評審肯定本研究「提出結合 Opinion Dynamics 模型與 LLM 的創新混合框架，填補既有研究的明確缺口，銜接形式理論與現代 AI 實務」，並「以完整的實驗設計評估 Social Cost、同溫層形成與極化程度，提供計算社會科學與 AI 研究者皆感興趣的新洞見與可重現的方法」
+\end{bullets}
+
+% ================= RESEARCH EXPERIENCE =================
+\section{Research Experience}
+\entry{中央研究院 資訊科技創新研究中心}{2026 年 9 月至今}{Computational Finance and Data Analytics Lab，兼任研究助理，指導教授：王釧茹博士}{台北，台灣}
+\begin{bullets}
+  \item 接續暑期實習的 User Simulation Track 競賽，負責設計以 Agentic Workflow 為基礎的 User Simulator，採用 Planner LM 負責核心決策、Speaker LM 負責生成 Query，並運用 PPO、GRPO 等強化學習（RL）演算法優化整體策略，預計 10 月初繳交最終 Simulator 至 TREC 平台
+\end{bullets}
+\vspace{0.15em}
+\entry{中央研究院 資訊科學研究所暑期實習計畫}{2026 年 7 至 8 月}{Computational Finance and Data Analytics Lab，研究實習生，指導教授：王釧茹博士}{台北，台灣}
+\begin{bullets}
+  \item 參與由美國國家標準技術研究所（NIST）與 Google DeepMind Scientist（Krisztian Balog）等國際學者共同主辦的 NIST TREC 2026 User Simulation Track，TREC 是全球資訊檢索（Information Retrieval）領域最具權威性的評測平台，而我參加的 Track 核心目標是解決 Conversational Search 中，如何精準模仿真實人類搜尋行為的挑戰
+\end{bullets}
+
+% ================= HONORS =================
+\section{Honors and Awards}
+\award{第一名\ ·\ 台灣作業研究學會\ ·\ 大專校院專題競賽\ ·\ 人工智慧與大數據分析組}{2026 年 6 月}
+\award{第三名\ ·\ 第二十屆全國盃商業模擬經營大賽}{2025 年 12 月}
+\award{書卷獎\ ·\ 國立陽明交通大學，GPA 4.30 / 4.30}{2024 年第二學期}
+
+% ================= ACTIVITIES =================
+\section{Leadership and Activities}
+\award{\mdseries SDC 軟體開發社，財務}{2025 年 8 月至 2026 年 8 月}
+\award{\mdseries SITCON 學生計算機年會，機動組志工}{2026 年 3 月}
+\award{\mdseries VYA 願景青年行動網協會，尼泊爾國際志工}{2026 年 1 月}
+
+\end{document}
