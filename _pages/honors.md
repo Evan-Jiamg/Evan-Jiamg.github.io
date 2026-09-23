@@ -28,7 +28,7 @@ author_profile: true
   <a class="award-thumb" href="/images/awards/nycu-book-award.jpg"><img src="/images/awards/nycu-book-award.jpg" alt="NYCU book award certificate"></a>
   <div class="award-body">
     <div class="award-date">Spring 2025</div>
-    <div class="award-title">Book Award (Certificate of Excellence)</div>
+    <div class="award-title">Certificate of Excellence</div>
     <div class="award-org">National Yang Ming Chiao Tung University<br><span class="zh">國立陽明交通大學 書卷獎</span></div>
     <div class="award-note">Semester GPA 4.30 / 4.30.</div>
   </div>

@@ -24,10 +24,6 @@ redirect_from:
 
 - **Ming-Zhi Jiang**, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li. *Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.* International Conference on Computational Science and Network Intelligence (CSoNet 2026), Springer LNCS. <span class="badge accepted">Accepted</span>
 
-## Presentations
-
-- *Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.* Taiwan Summer Workshop on Information Management (TSWIM 2026), Research Incubator, co-author. Accepted, Jul 2026. (Workshop without proceedings; an earlier version of the CSoNet 2026 paper.)
-
 ## Research Experience
 
 <div class="timeline-entry">
@@ -59,7 +55,7 @@ redirect_from:
 
 - **1st Place**, AI & Big Data Analytics Division, ORSTW Undergraduate Project Competition, *Jun 2026*
 - **3rd Place**, 20th National Business Simulation Competition, *Dec 2025*
-- **Book Award (書卷獎)**, NYCU, GPA 4.30 / 4.30, *Spring 2025*
+- **Certificate of Excellence**, NYCU, GPA 4.30 / 4.30, *Spring 2025*
 
 ## Leadership and Activities
 
@@ -67,7 +63,3 @@ redirect_from:
 - Volunteer (Operations Team), SITCON (Students' Information Technology Conference), *Mar 2026*
 - International Volunteer in Nepal, VYA Vision Youth Action, *Jan 2026*
 
-## Skills
-
-- **Programming:** Python, C++, Java, MySQL
-- **Methods:** LLM agents, agentic workflows, reinforcement learning (PPO, GRPO), SBERT / RoBERTa text pipelines, agent-based simulation
