@@ -85,3 +85,67 @@
   .t-sub { font-style: italic; font-size: 0.92em; }
   ul { margin-top: 0.3em; font-size: 0.92em; }
 }
+
+/* ---------- Layout: wider sidebar, smaller avatar ---------- */
+@include breakpoint($large) {
+  .sidebar {
+    width: 26%;
+    max-width: 300px;
+    padding-right: 1.5em;
+  }
+  .page {
+    float: right;
+    width: 72%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+  }
+}
+
+@include breakpoint($x-large) {
+  .sidebar { max-width: 300px; }
+}
+
+.author__avatar img {
+  max-width: 150px;
+}
+
+.sidebar .author__name { font-size: 1.15em; line-height: 1.3; }
+.author__urls li { white-space: normal; line-height: 1.45; }
+
+/* ---------- No footer bar ---------- */
+.page__footer { display: none; }
+
+/* ---------- Honors cards ---------- */
+.award-card {
+  display: flex;
+  gap: 1.3em;
+  align-items: center;
+  padding: 1em 0;
+  border-bottom: 1px solid var(--global-border-color, #e5e5e5);
+
+  .award-thumb {
+    flex: 0 0 180px;
+    border-bottom: none;
+    img {
+      width: 180px;
+      height: 130px;
+      object-fit: contain;
+      background: #fff;
+      border: 1px solid var(--global-border-color, #e5e5e5);
+      border-radius: 4px;
+    }
+  }
+  .award-body { flex: 1 1 auto; line-height: 1.45; }
+  .award-date { font-size: 0.78em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.7; }
+  .award-title { font-weight: 700; font-size: 1.02em; margin: 0.1em 0 0.15em; }
+  .award-org { font-size: 0.88em; }
+  .award-org .zh { opacity: 0.75; }
+  .award-note { font-size: 0.85em; margin-top: 0.3em; }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

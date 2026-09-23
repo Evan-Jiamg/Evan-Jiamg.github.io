@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am **Ming-Zhi (Evan) Jiang** (姜明志), an undergraduate in Information Management and Finance at [National Yang Ming Chiao Tung University (NYCU)](https://www.nycu.edu.tw/), graduating in June 2027. My research interests lie in **LLM agents**, **agentic workflows**, **user simulation**, **opinion dynamics** and **computational social science**, with a side interest in quantitative finance.
+I am **Ming-Zhi (Evan) Jiang** (姜明志), an undergraduate in Information Management and Finance at [National Yang Ming Chiao Tung University (NYCU)](https://www.nycu.edu.tw/), graduating in June 2027.
 
-Currently, I am a part-time research assistant at the [Computational Finance and Data Analytics (CFDA) Lab](https://cfda.csie.org/), Research Center for Information Technology Innovation, Academia Sinica, advised by [Dr. Chuan-Ju Wang](http://cfda.csie.org/~cjwang/). There I design an agentic, RL-trained user simulator for the NIST TREC 2026 User Simulation Track. At NYCU, I work with Prof. Po-An Chen in the Economics and Computing Lab on how LLM agents and game-theoretic agents form echo chambers together.
+Currently, I am a part-time research assistant at the [Computational Finance and Data Analytics (CFDA) Lab](https://cfda.csie.org/), Research Center for Information Technology Innovation, Academia Sinica, advised by [Dr. Chuan-Ju Wang](http://cfda.csie.org/~cjwang/). There I design an agentic, RL-trained user simulator for the NIST TREC 2026 User Simulation Track. At NYCU, I work with [Prof. Po-An Chen](https://iim.nycu.edu.tw/iim/ch/app/artwebsite/view?module=artwebsite&id=37975&serno=4cb17686-fcc1-48ac-bc4e-764d07d8555b) in the Economics and Computing Lab on how LLM agents and game-theoretic agents form echo chambers together.
 
 📄 [Resume (PDF)](/files/Ming-Zhi_Jiang_Resume.pdf) · ✉️ s112701018.mg12@nycu.edu.tw
 

@@ -23,7 +23,10 @@ redirect_from:
 ## Publications
 
 - **Ming-Zhi Jiang**, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li. *Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.* International Conference on Computational Science and Network Intelligence (CSoNet 2026), Springer LNCS. <span class="badge accepted">Accepted</span>
-- Co-author. *Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.* Taiwan Summer Workshop on Information Management (TSWIM 2026), Research Incubator. <span class="badge accepted">Accepted</span>
+
+## Presentations
+
+- *Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.* Taiwan Summer Workshop on Information Management (TSWIM 2026), Research Incubator, co-author. Accepted, Jul 2026. (Workshop without proceedings; an earlier version of the CSoNet 2026 paper.)
 
 ## Research Experience
 
@@ -45,7 +48,7 @@ redirect_from:
 
 <div class="timeline-entry">
   <div class="t-head"><span class="t-title">Economics and Computing Lab, NYCU</span><span class="t-date">Feb 2026 – Present</span></div>
-  <div class="t-sub">Undergraduate Research Project · Advisor: Prof. Po-An Chen · Hsinchu, Taiwan</div>
+  <div class="t-sub">Undergraduate Research Project · Advisor: <a href="https://iim.nycu.edu.tw/iim/ch/app/artwebsite/view?module=artwebsite&amp;id=37975&amp;serno=4cb17686-fcc1-48ac-bc4e-764d07d8555b">Prof. Po-An Chen</a> · Hsinchu, Taiwan</div>
   <ul>
     <li>Proposed H-COG, which places Friedkin–Johnsen cost-minimizing agents and LLM agents in one coevolving opinion-game network, closing the gap between opinion games without language reasoning and LLM simulations without a social-efficiency measure.</li>
     <li>Ran 540 simulations initialized from real Reddit stance data; the social cost at α = 0.125 is five times that at α = 1, driven by conformity pressure inside echo chambers.</li>

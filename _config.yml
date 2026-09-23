@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Ming-Zhi (Evan) Jiang"
 title_separator          : "-"
 name                     : &name "Ming-Zhi (Evan) Jiang"
-description              : &description "Ming-Zhi (Evan) Jiang (姜明志), undergraduate researcher at NYCU and CFDA Lab, Academia Sinica, working on LLM agents, user simulation and computational social science."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ming-Zhi (Evan) Jiang (姜明志), undergraduate at NYCU and research assistant at the CFDA Lab, Academia Sinica."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://evan-jiamg.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Ming-Zhi (Evan) Jiang"
   pronouns         : # example: "she/her"  
-  bio              : "LLM Agents · User Simulation · Computational Social Science"
+  bio              : 
   location         : "Hsinchu & Taipei, Taiwan"
   employer         : "NYCU · CFDA Lab, Academia Sinica"
   uri              : # URL
@@ -86,8 +86,6 @@ author:
 publication_category:
   conferences:
     title: 'Conference Papers'
-  workshops:
-    title: 'Workshops & Extended Abstracts'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

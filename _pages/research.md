@@ -5,8 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-My work sits where **LLM agents** meet **human behavior**: how to make language agents behave like real people, and what happens to a social system once such agents are part of it.
-
 ## Agentic User Simulation for Conversational Search
 
 <div class="timeline-entry">
@@ -25,7 +23,7 @@ TREC, run by the U.S. National Institute of Standards and Technology (NIST), is 
 
 <div class="timeline-entry">
   <div class="t-head"><span class="t-title">Undergraduate Research Project · Economics and Computing Lab, NYCU</span><span class="t-date">Feb 2026 – Present</span></div>
-  <div class="t-sub">Advisor: Prof. Po-An Chen · First author (CSoNet 2026)</div>
+  <div class="t-sub">Advisor: <a href="https://iim.nycu.edu.tw/iim/ch/app/artwebsite/view?module=artwebsite&amp;id=37975&amp;serno=4cb17686-fcc1-48ac-bc4e-764d07d8555b">Prof. Po-An Chen</a> · First author (CSoNet 2026)</div>
 </div>
 
 ![H-COG pipeline](/images/pubs/hcog-pipeline.jpg)
@@ -36,10 +34,6 @@ TREC, run by the U.S. National Institute of Standards and Technology (NIST), is 
 
 Reviewers at CSoNet described the work as *"an innovative hybrid framework that combines opinion dynamics models with LLMs, addressing a clear gap in existing research and bridging formal theory and modern AI practice"*, with *"a thorough experimental protocol that evaluates social costs, echo-chamber formation, and polarization"*.
 
+An earlier version was accepted at the TSWIM 2026 Research Incubator (workshop, no proceedings).
+
 [Paper page](/publications/2026-11-16-hcog-csonet/) · [Code & Data](https://github.com/Evan-Jiamg/Echo-Chamber-Simulation)
-
-## Other Projects
-
-- **[Python-ML-Quant](https://github.com/Evan-Jiamg/Python-ML-Quant):** notebooks on Black–Scholes option pricing, genetic algorithms, LPPL bubble detection, decision trees and CNNs.
-- **[H-CAP](https://github.com/Evan-Jiamg/H-CAP):** an inclusive-finance system for migrant workers in Taiwan, combining OID4VCI digital credentials, AI voice interviews and blockchain remittance tracking.
-- **[Algorithm-Practice-Collections](https://github.com/Evan-Jiamg/Algorithm-Practice-Collections):** C++ implementations of Knight's Tour, N-Queens, Kruskal/Prim MST and more, each with a GUI visualization.

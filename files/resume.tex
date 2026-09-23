@@ -20,8 +20,8 @@
 \xeCJKsetup{CJKecglue={\hskip 0.15em plus 0.05em}}
 
 % ---------- Colors & links ----------
-\definecolor{linkblue}{RGB}{0,0,238}
-\newcommand{\bluelink}[2]{\href{#1}{\textcolor{linkblue}{\texttt{#2}}}}
+\definecolor{linkblue}{RGB}{0,0,139}
+\newcommand{\bluelink}[2]{\href{#1}{\textcolor{linkblue}{\texttt{\bfseries #2}}}}
 
 % ---------- Section style ----------
 \titleformat{\section}{\headfont\Large\scshape\raggedright}{}{0em}{}[\vspace{-0.75em}\rule{\linewidth}{0.6pt}]
@@ -29,7 +29,7 @@
 
 \setlength{\parindent}{0pt}
 \pagestyle{empty}
-\setlist[itemize]{leftmargin=1.5em,label={-},itemsep=0.05em,topsep=0.1em,parsep=0pt}
+\setlist[itemize]{leftmargin=1.5em,label={-},itemsep=0.12em,topsep=0.15em,parsep=0pt}
 
 % ---------- Entry macros ----------
 % \entry{Title}{Date}{Subtitle}{Location}
@@ -42,12 +42,13 @@
 \newenvironment{bullets}{\begin{itemize}[leftmargin=2.3em]}{\end{itemize}}
 
 \begin{document}
+\fontsize{10.5}{13.8}\selectfont
 
 % ---------- Header (no photo) ----------
 \begin{center}
   {\headfont\bfseries\fontsize{22}{26}\selectfont 姜明志\ \ Ming-Zhi Jiang}\\[0.35em]
-  Email:\ \bluelink{mailto:s112701018.mg12@nycu.edu.tw}{s112701018.mg12@nycu.edu.tw}\quad
-  Homepage:\ \bluelink{https://evan-jiamg.github.io}{evan-jiamg.github.io}
+  \textbf{Email:}\ \bluelink{mailto:s112701018.mg12@nycu.edu.tw}{s112701018.mg12@nycu.edu.tw}\quad
+  \textbf{Homepage:}\ \bluelink{https://evan-jiamg.github.io}{evan-jiamg.github.io}
 \end{center}
 \vspace{-0.6em}
 
