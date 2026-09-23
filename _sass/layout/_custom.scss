@@ -89,13 +89,13 @@
 /* ---------- Layout: sidebar + content ---------- */
 @include breakpoint($large) {
   .sidebar {
-    width: 250px;
-    max-width: 250px;
+    width: 220px;
+    max-width: 220px;
     padding-right: 0;
   }
   .page {
     float: right;
-    width: calc(100% - 290px);
+    width: calc(100% - 260px);
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
