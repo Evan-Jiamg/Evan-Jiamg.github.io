@@ -9,7 +9,7 @@ author_profile: true
 
 <div class="timeline-entry">
   <div class="t-head"><span class="t-title">NIST TREC 2026 User Simulation Track · CFDA Lab, Academia Sinica</span><span class="t-date">Jul 2026 – Present</span></div>
-  <div class="t-sub">Advisor: Dr. Chuan-Ju Wang · Team member</div>
+  <div class="t-sub">Advisor: Prof. Chuan-Ju Wang · Team member</div>
 </div>
 
 TREC, run by the U.S. National Institute of Standards and Technology (NIST), is one of the most established evaluation campaigns in Information Retrieval. The 2026 User Simulation Track, co-organized by international scholars including Krisztian Balog (Google DeepMind), asks how to build a simulator that reproduces how real people search in a conversation.

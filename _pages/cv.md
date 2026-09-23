@@ -32,7 +32,7 @@ redirect_from:
 
 <div class="timeline-entry">
   <div class="t-head"><span class="t-title">Research Center for Information Technology Innovation, Academia Sinica</span><span class="t-date">Sep 2026 – Present</span></div>
-  <div class="t-sub">Part-time Research Assistant, CFDA Lab · Advisor: Dr. Chuan-Ju Wang · Taipei, Taiwan</div>
+  <div class="t-sub">Part-time Research Assistant, CFDA Lab · Advisor: Prof. Chuan-Ju Wang · Taipei, Taiwan</div>
   <ul>
     <li>Designing an Agentic-Workflow user simulator for the TREC 2026 User Simulation Track: a Planner LM makes core decisions and a Speaker LM generates queries, with the overall policy optimized by PPO and GRPO. Final simulator due on the TREC platform in early October 2026.</li>
   </ul>
@@ -40,7 +40,7 @@ redirect_from:
 
 <div class="timeline-entry">
   <div class="t-head"><span class="t-title">Summer Internship Program, Institute of Information Science, Academia Sinica</span><span class="t-date">Jul – Aug 2026</span></div>
-  <div class="t-sub">Research Intern, CFDA Lab · Advisor: Dr. Chuan-Ju Wang · Taipei, Taiwan</div>
+  <div class="t-sub">Research Intern, CFDA Lab · Advisor: Prof. Chuan-Ju Wang · Taipei, Taiwan</div>
   <ul>
     <li>Joined the NIST TREC 2026 User Simulation Track, co-organized by NIST and international scholars including Krisztian Balog (Google DeepMind). TREC is among the most established evaluation campaigns in Information Retrieval; this track targets faithfully simulating real human search behavior in conversational search.</li>
   </ul>
