@@ -59,7 +59,7 @@ redirect_from:
 
 ## Leadership and Activities
 
-- Treasurer, SDC Software Development Club, NYCU, *Aug 2025 – Aug 2026*
+- Treasurer, SDC Software Development Club, NYCU, *Aug 2025 – Present*
 - Volunteer (Operations Team), SITCON (Students' Information Technology Conference), *Mar 2026*
 - International Volunteer in Nepal, VYA Vision Youth Action, *Jan 2026*
 

@@ -7,6 +7,21 @@ author_profile: true
 
 Research is only part of what shaped me. This page keeps the moments outside the lab that I want to remember.
 
+<h2 id="sdc">SDC Software Development Club, NYCU · Aug 2025 – Present</h2>
+
+<div class="t-sub"><i>Treasurer (財務)</i></div>
+
+I have served as Treasurer of the NYCU Software Development Club (SDC) since August 2025.
+
+[待填: one or two sentences, in your own words, on what SDC means to you, and what Intern Corner is]
+
+<div class="photo-grid">
+  <figure><a href="/images/sdc/officer-dinner-fall-2025.jpg"><img src="/images/sdc/officer-dinner-fall-2025.jpg" alt="SDC officer dinner" loading="lazy"></a><figcaption>End-of-semester officer dinner, Fall 2025 (Jan 2026)</figcaption></figure>
+  <figure><a href="/images/sdc/club-room.jpg"><img src="/images/sdc/club-room.jpg" alt="SDC club room" loading="lazy"></a><figcaption>In the club room</figcaption></figure>
+  <figure><a href="/images/sdc/intern-corner-1.jpg"><img src="/images/sdc/intern-corner-1.jpg" alt="Intern Corner group photo" loading="lazy"></a><figcaption>Intern Corner</figcaption></figure>
+  <figure><a href="/images/sdc/intern-corner-2.jpg"><img src="/images/sdc/intern-corner-2.jpg" alt="Intern Corner group photo" loading="lazy"></a><figcaption>Intern Corner</figcaption></figure>
+</div>
+
 <h2 id="nepal-2026">International Volunteering in Nepal · Jan 2026</h2>
 
 <div class="t-sub"><i>VYA Vision Youth Action (願景青年行動網協會) · Nepal NL89 volunteer team</i></div>
