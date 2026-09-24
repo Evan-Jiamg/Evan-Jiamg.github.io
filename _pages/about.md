@@ -11,7 +11,7 @@ I am **Ming-Zhi (Evan) Jiang** (姜明志), an undergraduate in Information Mana
 
 Currently, I am a part-time research assistant at the [Computational Finance and Data Analytics (CFDA) Lab](https://cfda.csie.org/), Research Center for Information Technology Innovation, Academia Sinica, advised by [Prof. Chuan-Ju Wang](http://cfda.csie.org/~cjwang/). There I design an agentic, RL-trained user simulator for the NIST TREC 2026 User Simulation Track.
 
-At NYCU, I work with [Prof. Po-An Chen](https://iim.nycu.edu.tw/iim/ch/app/artwebsite/view?module=artwebsite&id=37975&serno=4cb17686-fcc1-48ac-bc4e-764d07d8555b) in the Economics and Computing Lab on how LLM agents and game-theoretic agents form echo chambers together.
+At NYCU, I am an undergraduate research student of [Prof. Po-An Chen](https://iim.nycu.edu.tw/iim/ch/app/artwebsite/view?module=artwebsite&id=37975&serno=4cb17686-fcc1-48ac-bc4e-764d07d8555b) in the Economics and Computing Lab, where I study how LLM agents and game-theoretic agents form echo chambers together. Under his supervision, this project won **1st place** in the AI & Big Data Analytics division of the 2026 ORSTW Undergraduate Project Competition, was accepted at **CSoNet 2026** with me as **first author**, and an earlier version was accepted at the Taiwan Summer Workshop on Information Management (TSWIM 2026), where I was a co-author.
 
 📄 [Resume (PDF)](/files/Ming-Zhi_Jiang_Resume.pdf) · ✉️ s112701018.mg12@nycu.edu.tw
 
