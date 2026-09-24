@@ -38,11 +38,11 @@
   \hspace*{0.8em}{\itshape #3}\hfill{\itshape #4}\vspace{-0.1em}}
 \newcommand{\entryline}[2]{%
   \hspace*{0.8em}{\headfont\bfseries #1}\hfill{\itshape #2}}
-\newcommand{\award}[2]{\hspace*{0.8em}{\bfseries #1}\hfill{\itshape #2}\par\vspace{0.15em}}
+\newcommand{\award}[2]{\hspace*{0.8em}{\bfseries #1}\hfill{\itshape #2}\par}
 \newenvironment{bullets}{\begin{itemize}[leftmargin=2.3em]}{\end{itemize}}
 
 \begin{document}
-\fontsize{10.5}{14.6}\selectfont
+\fontsize{10.5}{14.4}\selectfont
 
 % ---------- Header (no photo) ----------
 \begin{center}
@@ -64,15 +64,15 @@
 
 % ================= PUBLICATIONS =================
 \section{Publications}
-\hspace*{0.8em}\parbox[t]{0.95\linewidth}{\raggedright\href{https://arxiv.org/abs/2609.27639}{\headfont\bfseries Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games}}\\[0.1em]
+\hspace*{0.8em}\parbox[t]{0.95\linewidth}{\raggedright\href{https://arxiv.org/abs/2609.27639}{\headfont\bfseries Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games}\strut}\\[0.3em]
 \hspace*{0.8em}{\itshape \underline{Ming-Zhi Jiang}, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li}\hfill{\itshape CSoNet 2026}
 
 % ================= UNDERGRADUATE RESEARCH =================
 \section{Undergraduate Research Project}
 \hspace*{0.8em}\parbox[t]{0.8\linewidth}{\raggedright\headfont\bfseries Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games\ \ \href{https://github.com/Evan-Jiamg/Echo-Chamber-Simulation}{\textcolor{linkblue}{\faGithub\ Code \& Data}}}\hfill{\itshape 2026 年 2 月至今}\\[0.2em]
-\hspace*{0.8em}$\rightarrow$ {\bfseries First author}\ ·\ {\bfseries Accepted}\ ·\ International Conference on Computational Science and Network Intelligence\hfill{\itshape 2026 年 9 月}\\
-\hspace*{0.8em}$\rightarrow$ {\bfseries Co-author}\ ·\ {\bfseries Accepted}\ ·\ Taiwan Summer Workshop on Information Management\hfill{\itshape 2026 年 7 月}\\
-\hspace*{0.8em}$\rightarrow$ {\bfseries 第一名}\ ·\ 台灣作業研究學會\ ·\ 大專校院專題競賽\ ·\ 人工智慧與大數據分析組\hfill{\itshape 2026 年 6 月}\\
+\hspace*{0.8em}$\rightarrow$ {\bfseries First author}\ ·\ {\bfseries Accepted}\ ·\ International Conference on Computational Science and Network Intelligence\hfill{\itshape 2026 年 9 月}\\[0.2em]
+\hspace*{0.8em}$\rightarrow$ {\bfseries Co-author}\ ·\ {\bfseries Accepted}\ ·\ Taiwan Summer Workshop on Information Management\hfill{\itshape 2026 年 7 月}\\[0.2em]
+\hspace*{0.8em}$\rightarrow$ {\bfseries 第一名}\ ·\ 台灣作業研究學會\ ·\ 大專校院專題競賽\ ·\ 人工智慧與大數據分析組\hfill{\itshape 2026 年 6 月}\\[0.2em]
 \hspace*{0.8em}{\itshape Economics and Computing Lab，指導教授：陳柏安教授}
 \begin{bullets}
   \item 提出將傳統的 Friedkin-Johnsen Model 與具備語言推理能力的 LLM Agent，併入同張動態重連的 Opinion Game 網路的創新融合框架，填補了過去 Opinion Game 缺乏語言推理，以及 LLM Simulation 未衡量 Social Efficiency 的缺口。
@@ -81,26 +81,32 @@
 
 % ================= RESEARCH EXPERIENCE =================
 \section{Research Experience}
+{\fontsize{10.5}{15.0}\selectfont
 \entry{中央研究院 資訊科技創新研究中心}{2026 年 9 月至今}{Computational Finance and Data Analytics Lab，兼任研究助理，指導教授：王釧茹教授}{}
 \begin{bullets}
   \item 接續暑期實習的 User Simulation Track 競賽，設計以 Agentic Workflow 為基礎的 User Simulator，採用 Planner LM 負責核心決策、Speaker LM 負責生成 Query，並運用 PPO、GRPO 等強化學習（RL）演算法優化整體策略，預計 10 月初繳交最終 Simulator 至 TREC 平台。
 \end{bullets}
-\vspace{0.15em}
+\vspace{0.3em}
 \entry{中央研究院 資訊科學研究所暑期實習計畫}{2026 年 7 至 8 月}{Computational Finance and Data Analytics Lab，研究實習生，指導教授：王釧茹教授}{}
 \begin{bullets}
   \item 參與由美國國家標準技術研究所（NIST）與 Google DeepMind Scientist（Krisztian Balog）等國際學者共同主辦的 TREC 2026 User Simulation Track，TREC 是全球資訊檢索（Information Retrieval）領域權威性的評測平台，而我參加的 Track 核心目標是解決 Conversational Search 中，精準模仿真實人類搜尋行為的挑戰。
 \end{bullets}
+\par}
 
 % ================= HONORS =================
 \section{Honors and Awards}
+{\fontsize{10.5}{12.6}\selectfont
 \award{第一名\ ·\ {\mdseries 台灣作業研究學會\ ·\ 大專校院專題競賽\ ·\ 人工智慧與大數據分析組}}{2026 年 6 月}
 \award{第三名\ ·\ {\mdseries 第二十屆全國盃商業模擬經營大賽}}{2025 年 12 月}
 \award{書卷獎\ ·\ {\mdseries 國立陽明交通大學，GPA 4.30 / 4.30}}{2024 年第二學期}
+\par}
 
 % ================= ACTIVITIES =================
 \section{Leadership and Activities}
+{\fontsize{10.5}{12.6}\selectfont
 \award{\mdseries SDC 軟體開發社，財務}{2025 年 8 月至 2026 年 8 月}
 \award{\mdseries SITCON 學生計算機年會，機動組志工}{2026 年 3 月}
 \award{\mdseries VYA 願景青年行動網協會，尼泊爾國際志工}{2026 年 1 月}
+\par}
 
 \end{document}
