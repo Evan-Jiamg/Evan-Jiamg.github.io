@@ -2,7 +2,7 @@
 % Ming-Zhi (Evan) Jiang - Resume (Chinese), layout follows Lucas Hsu's resume
 \documentclass[10pt,letterpaper]{article}
 
-\usepackage[left=0.6in,right=0.6in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage[left=0.6in,right=0.6in,top=0.3in,bottom=0.3in]{geometry}
 \usepackage{fontspec}
 \usepackage[AutoFakeBold=2.5,AutoFakeSlant=0.18]{xeCJK}
 \usepackage{xcolor}
@@ -29,7 +29,7 @@
 
 \setlength{\parindent}{0pt}
 \pagestyle{empty}
-\setlist[itemize]{leftmargin=1.5em,label={-},itemsep=0.12em,topsep=0.15em,parsep=0pt}
+\setlist[itemize]{leftmargin=1.5em,label={-},itemsep=0.05em,topsep=0.1em,parsep=0pt}
 
 % ---------- Entry macros ----------
 % \entry{Title}{Date}{Subtitle}{Location}
@@ -75,9 +75,7 @@
 \hspace*{0.8em}$\rightarrow$ {\bfseries 第一名}\ ·\ 台灣作業研究學會\ ·\ 大專校院專題競賽\ ·\ 人工智慧與大數據分析組\hfill{\itshape 2026 年 6 月}\\
 \hspace*{0.8em}{\itshape Economics and Computing Lab，指導教授：陳柏安教授}
 \begin{bullets}
-  \item 這篇論文錄取於 International Conference on Computational Science and Network Intelligence（CSoNet 2026），是我在大專專題期間獨立擔任第一作者的研究成果，該會議是聚焦在結合網路分析、圖神經網路和人工智慧，來解決真實世界問題的國際會議
-  \item 針對過去 Opinion Game 模型（Bhawalkar et al., STOC 2013）缺乏語言推理，以及 LLM Simulation（Wang et al., COLING 2025）未量化 Social Efficiency 的缺口，我提出 Hybrid Coevolutionary Opinion Game（H-COG），將 Cost-minimizing 的 Friedkin-Johnsen Agent 與 LLM-driven Agent 融合於動態重連的社群網路，正如 CSoNet 評審所述，這是一個「結合 Opinion Dynamics 模型與 LLM 的創新混合框架，填補既有研究的明確缺口，並銜接形式理論與現代 AI 實務」
-  \item 利用真實 Reddit 數據作為 Agent 初始立場，完成 540 次 Simulations，完整評估 Social Cost、同溫層形成與極化程度，發現 $\alpha = 0.125$ 混合 Agents 網路的 Social Cost 為 $\alpha = 1$ 純數值 Agents 網路的 5 倍，驗證了混合 Agents 網路中的同溫層（Echo Chamber）與從眾背離現象
+  \item 這篇發表在 International Conference on Computational Science and Network Intelligence 的論文，是我在大學專題期間擔任第一作者的研究成果。該會議主要聚焦在結合網路分析、圖神經網路和人工智慧，來解決真實世界問題的國際會議。我在這篇論文中提出的核心創新，是將傳統演化賽局的 Friedkin-Johnsen Model 與具備語言推理能力的 LLM Agent 併入同張 Opinion Game 動態重連的演化網路，填補過去 Opinion Game 缺乏語言推理，以及 LLM Simulation 未衡量 Social Efficiency 的缺口，並結合實證分析，利用真實 Reddit 數據做為 Agent 立場，經過 540 次 Simulations，發現 LLM Agent 之間最容易達成共識，但這個共識的代價是整體社會成本最高，純 LLM Agent 網路的效率損失為傳統 FJ Model 的五倍，而同溫層的形成則取決於動態重連機制，而非初始網路結構。
 \end{bullets}
 
 % ================= RESEARCH EXPERIENCE =================
