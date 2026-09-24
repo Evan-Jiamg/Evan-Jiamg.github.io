@@ -11,7 +11,7 @@ author_profile: true
     <div class="award-date">Jun 2026</div>
     <div class="award-title">1st Place, AI &amp; Big Data Analytics Division</div>
     <div class="award-org">ORSTW Undergraduate Project Competition<br><span class="zh">台灣作業研究學會 大專校院專題競賽</span></div>
-    <div class="award-note">For the project that became <a href="/publications/2026-11-16-hcog-csonet/">H-COG</a>.</div>
+    <div class="award-note">This project later grew into my first first-author paper, accepted at <a href="/publications/2026-11-16-hcog-csonet/">CSoNet 2026</a>.</div>
   </div>
 </div>
 
@@ -42,5 +42,15 @@ author_profile: true
     <div class="award-date">Jul – Aug 2026</div>
     <div class="award-title">Certificate of Internship</div>
     <div class="award-org">Summer Internship Program, Institute of Information Science, Academia Sinica<br><span class="zh">中央研究院 資訊科學研究所 暑期實習</span></div>
+  </div>
+</div>
+
+<div class="award-card">
+  <a class="award-thumb" href="/images/awards/sitcon-2026-certificate.jpg"><img src="/images/awards/sitcon-2026-certificate.jpg" alt="SITCON 2026 certificate of appreciation"></a>
+  <div class="award-body">
+    <div class="award-date">Mar 2026</div>
+    <div class="award-title">Certificate of Appreciation</div>
+    <div class="award-org">SITCON 2026, Students' Information Technology Conference, Venue Team<br><span class="zh">學生計算機年會 2026 場務組 感謝狀</span></div>
+    <div class="award-note">See <a href="/memorable-moments/#sitcon-2026">Memorable Moments</a> for photos.</div>
   </div>
 </div>
