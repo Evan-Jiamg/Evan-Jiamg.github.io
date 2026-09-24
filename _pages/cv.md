@@ -22,7 +22,7 @@ redirect_from:
 
 ## Publications
 
-- **Ming-Zhi Jiang**, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li. *Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.* International Conference on Computational Science and Network Intelligence (CSoNet 2026), Springer LNCS. <span class="badge accepted">Accepted</span>
+- **Ming-Zhi Jiang**, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li. [*Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.*](https://arxiv.org/abs/2609.27639) International Conference on Computational Science and Network Intelligence (CSoNet 2026), Springer LNCS. <span class="badge accepted">Accepted</span>
 
 ## Research Experience
 

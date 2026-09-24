@@ -24,6 +24,7 @@ At NYCU, I work with [Prof. Po-An Chen](https://iim.nycu.edu.tw/iim/ch/app/artwe
     <span class="pub-authors"><span class="me">Ming-Zhi Jiang</span>, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li</span>
     <span class="pub-venue"><span class="badge accepted">Accepted</span>International Conference on Computational Science and Network Intelligence (CSoNet), 2026</span>
     <div class="btn-row">
+      <a href="https://arxiv.org/abs/2609.27639">arXiv</a>
       <a href="/publications/2026-11-16-hcog-csonet/">Abstract</a>
       <a href="https://github.com/Evan-Jiamg/Echo-Chamber-Simulation">Code &amp; Data</a>
     </div>

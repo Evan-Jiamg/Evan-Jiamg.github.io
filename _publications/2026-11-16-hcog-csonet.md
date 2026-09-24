@@ -3,13 +3,16 @@ title: "Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybr
 collection: publications
 category: conferences
 permalink: /publications/2026-11-16-hcog-csonet/
-excerpt: '<b>Ming-Zhi Jiang</b>, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li. <span class="badge accepted">Accepted</span> <a href="https://github.com/Evan-Jiamg/Echo-Chamber-Simulation">Code &amp; Data</a>'
+excerpt: '<b>Ming-Zhi Jiang</b>, An-Tzi Teng, Jun-En Liu, Po-An Chen, Yung-Ming Li. <span class="badge accepted">Accepted</span> <a href="https://arxiv.org/abs/2609.27639">arXiv</a> · <a href="https://github.com/Evan-Jiamg/Echo-Chamber-Simulation">Code &amp; Data</a>'
 date: 2026-11-16
 venue: 'International Conference on Computational Science and Network Intelligence (CSoNet 2026), Springer LNCS'
 header:
   teaser: pubs/hcog-pipeline.jpg
-citation: 'Ming-Zhi Jiang, An-Tzi Teng, Jun-En Liu, Po-An Chen, and Yung-Ming Li. (2026). &quot;Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.&quot; <i>In Proceedings of CSoNet 2026</i>, Ho Chi Minh City, Vietnam. To appear.'
+paperurl: 'https://arxiv.org/abs/2609.27639'
+citation: 'Ming-Zhi Jiang, An-Tzi Teng, Jun-En Liu, Po-An Chen, and Yung-Ming Li. (2026). &quot;Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency in Hybrid Coevolutionary Opinion Games.&quot; <i>In Proceedings of CSoNet 2026</i>, Ho Chi Minh City, Vietnam. To appear. arXiv:2609.27639.'
 ---
+
+**Full paper:** [arXiv:2609.27639](https://arxiv.org/abs/2609.27639) · [Code & Data](https://github.com/Evan-Jiamg/Echo-Chamber-Simulation)
 
 ![H-COG pipeline](/images/pubs/hcog-pipeline.jpg)
 

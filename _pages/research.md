@@ -36,4 +36,4 @@ Reviewers at CSoNet described the work as *"an innovative hybrid framework that 
 
 An earlier version was accepted at the TSWIM 2026 Research Incubator (workshop, no proceedings).
 
-[Paper page](/publications/2026-11-16-hcog-csonet/) · [Code & Data](https://github.com/Evan-Jiamg/Echo-Chamber-Simulation)
+[arXiv](https://arxiv.org/abs/2609.27639) · [Paper page](/publications/2026-11-16-hcog-csonet/) · [Code & Data](https://github.com/Evan-Jiamg/Echo-Chamber-Simulation)
