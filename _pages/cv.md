@@ -12,7 +12,7 @@ redirect_from:
 ## Education
 
 <div class="timeline-entry">
-  <div class="t-head"><span class="t-title">Bachelor's Degree, Information Management and Finance (Information Management Track), National Yang Ming Chiao Tung University</span><span class="t-date">Expected Jun 2027</span></div>
+  <div class="t-head"><span class="t-title">B.S. in Information Management and Finance, Program of Information Management, National Yang Ming Chiao Tung University</span><span class="t-date">Expected Jun 2027</span></div>
 </div>
 
 ## Publications
